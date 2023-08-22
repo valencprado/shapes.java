@@ -23,9 +23,10 @@ class Main {
     System.out.println(arrFormas);
 
     // iteração
-    for(int i = 0; i < arrFormas.size(); i++) {
+    for (int i = 0; i < arrFormas.size(); i++) {
       arrFormas.get(i).mostrarCor();
       arrFormas.get(i).calcularArea();
+      // POO ADS IFSP-PTB
     }
   }
 }
